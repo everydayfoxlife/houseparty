@@ -1,0 +1,15 @@
+{
+	"sourcePaths": [
+		"www"
+	],
+	"excludePaths": [
+		"bin",
+		"lib"
+	],
+	"externalDependencies": {
+		"mage/mage.js":   { "path": "mage/mage.js",   "components": "0.2.5" },
+		"mage/loader.js": { "path": "mage/loader.js", "components": "0.2.1" },
+		"async":   { "path": "caolan/async", "components": "0.9.0" },
+		"inherit": { "path": "component/inherit", "components": "*" }
+	}
+}
