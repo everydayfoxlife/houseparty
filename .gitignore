@@ -1,0 +1,37 @@
+# MAGE specific ignores
+/build/**
+!/build/README.md
+/components/**
+!/components/README.md
+/logs/*.log
+.digest-cache.json
+.pidfile
+*.sock
+
+# NPM specific ignores
+/node_modules
+npm-debug.log
+
+# Testing specific ignores
+/html-report
+/lib-cov
+/plato-report
+/test/screenshots
+
+# Data
+/fileVaults/userVault
+
+# Aeriscloud specific ignores
+check.txt
+Vagrantfile
+vagrant_ansible_inventory_*
+.vagrant
+.htpasswd
+
+# Other system and software ignores
+.DS_Store
+._.DS_Store
+.swp
+*.swp
+*.session
+.idea
