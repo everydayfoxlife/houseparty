@@ -1,0 +1,17 @@
+{
+	"name": "Interface",
+	"dependencies": {
+		"Wizcorp/wui-Dom": "0.6.2",
+		"Wizcorp/util": "0.1.0",
+		"Wizcorp/wui-buttonBehavior": "0.1.1"
+	},
+	"local": [
+		"StatusBar"
+	],
+	"scripts": [
+		"index.js"
+	],
+	"paths": [
+		"../../components"
+	]
+}
