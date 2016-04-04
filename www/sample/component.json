@@ -1,0 +1,15 @@
+{
+	"name": "sample",
+	"description": "Sample Application",
+	"local": [
+		"boot",
+		"landing",
+		"main"
+	],
+	"paths": [
+		"./packages"
+	],
+	"styles": [
+		"styles.css"
+	]
+}

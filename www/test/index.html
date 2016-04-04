@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+	<head>
+		<title>Integration Tests</title>
+
+		<!-- General Meta Tags -->
+		<meta charset="utf-8">
+		<meta name="viewport">
+
+		<!-- Inject component CSS -->
+		<style type="text/css">
+			$component.css('www/test');
+		</style>
+
+		<!-- Inject component javascript and require test application entrypoint -->
+		<script type="text/javascript">
+			$component.js('www/test');
+			require('test');
+		</script>
+	</head>
+
+	<body>
+		<!-- Mocha needs a div with id="mocha" -->
+		<div id="mocha"></div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+{
+	"name": "boot",
+	"description": "Boot Package",
+	"dependencies": {
+		"mage/loader.js": "0.2.1"
+	},
+	"local": [
+	],
+	"paths": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}
