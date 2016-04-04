@@ -1,0 +1,48 @@
+.players{
+	text-align: center;
+    li{
+        margin:10px 0px;
+    }
+
+    ul.player1, ul.player2 {
+        width: 50%;
+        float: left;
+        opacity: 0.5;
+        padding:15px 0px;
+
+        &:hover, &.selected {
+            opacity: 1;
+            transition: .25s;
+            transition-timing-function: ease-in-out;
+        }
+
+        &.selected {
+            background:@light-gray;
+            transition: .15s;
+            transition-timing-function: ease-in;
+            
+            &.confirm{
+                background:@default;
+                float: none;
+                margin: auto;
+                
+            }
+        }
+
+        li.ready {
+            position: absolute;
+            background: @active;
+            padding: 30px 190px;
+            margin: 200px -20px 0px;
+            transform: rotate(-7deg);
+        }
+
+        &.hide{
+            transition: .15s;
+            
+            visibility: hidden;
+        }
+    }
+
+}
+
