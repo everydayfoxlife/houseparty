@@ -1,0 +1,10 @@
+{
+    "name": "user",
+    "dependencies": {
+        "mage/mage.js": "*"
+    },
+    "scripts": [
+        "client.js"
+    ],
+    "main": "client.js"
+}
