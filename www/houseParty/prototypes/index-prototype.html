@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boss Fight HTML Prototype</title>
+
+	<!-- General Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=320, user-scalable=no">
+
+	<!-- IOS Meta Tags -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Android Meta Tags -->
+
+	<!-- Inject component CSS -->
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+		body {
+			font-family:"Helvetica";
+			color:#444;
+			background:#444;
+		}
+		.stage {
+		    width: 800px;
+		    margin: 30px auto;
+		    background: #eee;
+		    overflow: auto;
+		    padding: 30px;
+		}
+
+		.enemyHp {
+		    text-align: center;
+		    padding: 0 0 15px 0;
+		}
+
+		.enemies{
+			float:left;
+			width: 50%;
+		}
+
+		.players {
+		    float: right;
+		    width: 50%;
+		    padding-top: 300px;
+		}
+
+		.playerMiniStatus li{
+			display:inline;
+		}
+
+		.actorPlayer:first-child {
+		    float: left;
+		    margin:20px;
+		}
+
+		.playerInterface{
+			clear:both;
+		}
+
+		ul.playerMenu, ul.partyStatus {
+		    float: left;
+		    width: 50%;
+		    margin: 15px 0px;
+		}
+
+		.playerMenu li:last-child {
+		    border: none;
+		}
+
+		.playerMenu li {
+		    padding: 10px 5px;
+		    border-bottom: 2px solid #ddd;
+		}
+
+		.playerMenu {
+		    background: #fff;
+		}
+
+		ul.playerStatus {
+		    background: #fff;
+		    margin: 0px 10px 10px;
+		    padding: 10px;
+		}
+
+		.playerStatus li {
+			display:inline;
+		}
+
+		ul.itemMenu {
+		    background: #eee;
+		    width: 190px;
+		    border: 2px solid #444;
+		    margin-left: 50px;
+		    margin-top: -90px;
+		    position: absolute;
+		    padding: 15px;
+		}
+
+		.itemMenu li {
+		    border: none;
+		    display: inline;
+		    text-align:center;
+		}
+
+	</style>
+
+	<script>
+		
+	</script>
+</head>
+<body>
+	<div class="stage">
+		<div class="enemyHp"><img src="http://placehold.it/800x25&text=enemyHp" /></div>
+
+		<div class="actors">
+			<div class="enemies">
+			<div class="actorEnemy"><img src="http://placehold.it/350x500&text=actorEnemy" /></div>
+		</div>
+
+		<div class="players">
+			<ul class="actorPlayer player1">
+				<li>
+					<ul class="playerMiniStatus">
+						<li>Player1</li>
+						<li><img src="http://placehold.it/25x25&text=actorPlayer" /></li>
+					</ul>
+				</li>
+				<li><img src="http://placehold.it/150x150&text=actorPlayer" /></li>
+			</ul>
+
+			<ul class="actorPlayer player2">
+					<li>
+						<ul class="playerMiniStatus">
+							<li>Player2</li>
+							<li><img src="http://placehold.it/25x25&text=actorPlayer" /></li>
+						</ul>
+					</li>
+					<li><img src="http://placehold.it/150x150&text=actorPlayer" /></li>
+				</ul>
+		</div>
+
+		<div class="playerInterface">
+			<ul class="playerMenu">
+				<li>PlayerName
+					<ul class="playerActions">
+						<li><a href="#">Attack</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Item</a>
+							<ul class="itemMenu">
+								<li><img src="http://placehold.it/50x50" /></li>
+								<li><img src="http://placehold.it/50x50" /></li>
+								<li><img src="http://placehold.it/50x50" /></li>
+								<li><img src="http://placehold.it/50x50" /></li>
+								<li><img src="http://placehold.it/50x50" /></li>
+								<li><img src="http://placehold.it/50x50" /></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="partyStatus">
+				<li>
+					<ul class="playerStatus">
+						<li>Player1</li>
+						<li>HP: <img src="http://placehold.it/100x10" /></li>
+						<li>Wait: <img src="http://placehold.it/100x10" /></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="playerStatus">
+						<li>Player2</li>
+						<li>HP: <img src="http://placehold.it/100x10" /></li>
+						<li>Wait: <img src="http://placehold.it/100x10" /></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+</body>
+</html>
