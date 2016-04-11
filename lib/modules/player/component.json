@@ -1,0 +1,10 @@
+{
+    "name": "player",
+    "dependencies": {
+        "mage/mage.js": "*"
+    },
+    "scripts": [
+        "client.js"
+    ],
+    "main": "client.js"
+}
