@@ -1,0 +1,14 @@
+{
+	"name": "houseParty",
+	"description": "House Party",
+	"paths": [
+		"./packages"
+	],
+	"local": [
+		"boot",
+		"main"
+	],
+	"styles": [
+		"views/shared/less/base.less"
+	]
+}

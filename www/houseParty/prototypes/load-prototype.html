@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boss Fight HTML Prototype</title>
+
+	<!-- General Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=320, user-scalable=no">
+
+	<!-- IOS Meta Tags -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Android Meta Tags -->
+
+	<!-- Inject component CSS -->
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+		body {
+			font-family:"Helvetica";
+			color:#444;
+			background:#444;
+		}
+		.stage {
+		    width: 800px;
+		    margin: 30px auto;
+		    background: #eee;
+		    overflow: auto;
+		    padding: 30px;
+		}
+
+		.players{
+			text-align: center;
+		}
+
+		.players li {
+		    margin: 10px 0px;
+		}
+
+		ul.player1, ul.player2 {
+		    width: 50%;
+		    float: left;
+		    opacity: 0.5;
+		}
+
+		ul.player1:hover, ul.player2:hover {
+			opacity: 1;
+		}
+
+		ul.itemMenu {
+		    background: #eee;
+		    width: 190px;
+		    margin:auto;
+		    border: 2px solid #ccc;
+		    padding: 15px;
+		}
+
+		.itemMenu li {
+		    border: none;
+		    display: inline;
+		    text-align:center;
+		}
+
+	</style>
+
+	<script>
+		
+	</script>
+</head>
+<body>
+	<div class="stage">
+
+		<div class="players">
+			<h2>Pick One</h2>
+			<ul class="player1">
+				<li>Hansel</li>
+				<li><img src="http://placehold.it/250x350&text=Hansel" /></li>
+				<li>
+					<ul class="itemMenu">
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+					</ul>
+				</li>
+				<li>5 Gretels are waiting for a Hansel</li>
+			</ul>
+
+			<ul class="player2">
+				<li>Gretel</li>
+				<li><img src="http://placehold.it/250x350&text=Gretel" /></li>
+				<li>
+					<ul class="itemMenu">
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+						<li><img src="http://placehold.it/50x50" /></li>
+					</ul>
+				</li>
+				<li>7 Hansels are waiting for a Gretel</li>
+			</ul>
+		</div>	
+	</div>
+</body>
+</html>
