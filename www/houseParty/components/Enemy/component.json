@@ -1,0 +1,12 @@
+{
+	"name": "Enemy",
+	"dependencies": {
+		"Wizcorp/wui-Dom": "0.6.2",
+		"Wizcorp/util": "0.1.0"
+	},
+	"scripts": [
+		"index.js"
+	],
+	"paths": [
+	]
+}
