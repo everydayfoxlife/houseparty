@@ -1,0 +1,27 @@
+{
+	"name": "main",
+	"description": "Main Package",
+	"dependencies": {
+		"mage/mage.js": "0.2.5",
+		"mage/loader.js": "0.2.1",
+		"Wizcorp/gettextlight.js": "1.1.0",
+		"Wizcorp/NavTree": "0.4.3"
+	},
+	"local": [
+		"archivist",
+		"assets",
+		"logger",
+		"session",
+		"time"
+	],
+	"paths": [
+		"../../views",
+		"../../../../node_modules/mage/lib/modules"
+	],
+	"scripts": [
+		"index.js"
+	],
+	"styles": [
+		"styles.less"
+	]
+}

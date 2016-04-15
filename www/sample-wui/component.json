@@ -1,0 +1,11 @@
+{
+	"name": "sample-wui",
+	"description": "Sample WUI Application",
+	"local": [
+		"boot",
+		"main"
+	],
+	"paths": [
+		"./packages"
+	]
+}

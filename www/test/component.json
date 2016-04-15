@@ -1,0 +1,29 @@
+{
+	"name": "test",
+	"dependencies": {
+		"mage/mage.js": "0.2.5",
+		"mage/loader.js": "0.2.1",
+		"timoxley/assert": "*",
+		"visionmedia/mocha": "1.18.0",
+		"caolan/async": "v1.4.0",
+		"Wizcorp/node-tomes": "0.1.0"
+	},
+	"local": [
+		"archivist",
+		"assets",
+		"ident",
+		"session",
+		"time"
+	],
+	"paths": [
+		"../../node_modules/mage/lib/modules"
+	],
+	"scripts": [
+		"index.js",
+		"tests/test/index.js",
+		"tests/test/helloworld.js"
+	],
+	"styles": [
+		"style.css"
+	]
+}
