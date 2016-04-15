@@ -1,0 +1,30 @@
+{
+	"name": "main",
+	"description": "The page that runs the actual game",
+	"dependencies": {
+		"mage/mage.js": "0.2.2",
+		"mage/loader.js": "0.2.1",
+		"Wizcorp/NavTree": "0.4.3"
+	},
+	"scripts": [
+		"index.js"
+	],
+	"local": [
+		"archivist",
+		"assets",
+		"logger",
+		"session",
+		"time",
+
+		"SelectView",
+		"GameView",
+
+		"fight",
+		"user"
+	],
+	"paths": [
+		"../../views",
+		"../../../../lib/modules",
+		"../../../../node_modules/mage/lib/modules"
+	]
+}
