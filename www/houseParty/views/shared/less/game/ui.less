@@ -1,0 +1,97 @@
+.enemyHp {
+        text-align: center;
+        padding: 0 0 15px 0;
+}
+
+.playerMiniStatus li{
+    display:inline;
+}
+
+.playerInterface {
+    clear: both;
+    overflow: auto;
+    background: #ddd;
+    padding: 0px 30px;
+}
+
+.playerMenu, .partyStatus {
+    float: left;
+    width: 50%;
+    margin: 15px 0px;
+}
+
+.playerMenu {
+
+    ul.playerActions {
+
+        li {
+            background: #fff;
+            border-radius: 5px;
+            color: #444;
+            margin-bottom: 15px;
+            text-align: center;
+            padding: 10px 5px;
+            border-bottom: 2px solid #ddd;
+
+            &:last-child {
+                border: none;
+            }
+        }
+
+        .itemMenu {
+            margin: 15px 0px 0px;
+
+            li {
+                border: none;
+                display: inline;
+                text-align:center;
+                background: none;
+            }
+        }
+    }
+}
+
+.partyStatus {
+    .statusBar div {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .partyMember {
+        padding: 10px;
+        margin: 5px;
+
+        .menuRow {
+            padding: 0px 0px 10px;
+            clear: both;
+
+            .progressbar{
+                background: @default;
+                height: 5px;
+                width:100%;
+                margin: 10px 0px;
+
+                .hpBar, .waitBar{
+                    background: @white;
+                    height: 5px;
+
+                    &.barFull {
+                    background: @active;
+
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
+.playerStatus {
+    background: #fff;
+    margin: 0px 10px 10px;
+    padding: 10px;
+        li {
+        display:inline;
+    }
+}
