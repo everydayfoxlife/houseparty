@@ -2,10 +2,10 @@
 	"name": "main",
 	"description": "Main Package",
 	"dependencies": {
-		"mage/mage.js": "0.2.5",
+		"mage/mage.js": "0.2.6",
 		"mage/loader.js": "0.2.1",
 		"Wizcorp/gettextlight.js": "1.1.0",
-		"Wizcorp/NavTree": "0.4.3"
+		"Wizcorp/NavTree": "0.4.4"
 	},
 	"local": [
 		"archivist",

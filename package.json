@@ -1,38 +1,41 @@
 {
-	"name": "mage-templates",
-	"description": "MAGE application",
-	"version": "0.1.0",
-	"author": "Wizcorp K.K. <info@wizcorp.jp>",
-	"license": "Private",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Wizcorp/mage-templates.git"
-	},
-	"scripts": {
-		"start": "make start",
-		"stop": "make stop",
-		"restart": "make restart",
-		"test": "make test"
-	},
-	"main": "app",
-	"engines": {
-		"node": ">=0.10 <=0.11"
-	},
-	"dependencies": {
-		"mage": "git+ssh://git@github.com:Wizcorp/mage.git#v0.47.0",
-		"chalk": "0.5.1",
-		"async": "1.4.0",
-		"component-less": "0.2.3",
-		"tomes": "0.1.0"
-	},
-	"devDependencies": {
-		"jshint": "2.4.1",
-		"jscs": "2.1.1",
-		"component-hint": "0.4.3",
-		"mocha": "1.17.0",
-		"istanbul": "0.2.1",
-		"mocha-istanbul": "0.2.0",
-		"plato": "0.6.2",
-		"phantomjs": "^1.9"
-	}
+  "name": "mage-templates",
+  "description": "MAGE application",
+  "version": "0.1.0",
+  "author": "Wizcorp K.K. <info@wizcorp.jp>",
+  "license": "Private",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wizcorp/mage-templates.git"
+  },
+  "scripts": {
+    "start": "make start",
+    "stop": "make stop",
+    "restart": "make restart",
+    "test": "make test"
+  },
+  "main": "app",
+  "engines": {
+    "node": ">=0.10 <=0.11"
+  },
+  "dependencies": {
+    "node-uuid": "*",
+    "async": "1.4.0",
+    "chalk": "0.5.1",
+    "component-less": "0.2.3",
+    "mage": "git+ssh://git@github.com:Wizcorp/mage.git#develop",
+    "node-zookeeper-client": "^0.2.2",
+    "tomes": "0.1.0",
+    "zmq": "^2.14.0"
+  },
+  "devDependencies": {
+    "jshint": "2.4.1",
+    "jscs": "2.1.1",
+    "component-hint": "0.4.3",
+    "mocha": "1.17.0",
+    "istanbul": "0.2.1",
+    "mocha-istanbul": "0.2.0",
+    "plato": "0.6.2",
+    "phantomjs": "^1.9"
+  }
 }

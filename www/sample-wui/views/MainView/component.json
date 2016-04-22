@@ -3,7 +3,7 @@
 	"description": "Main View",
 	"dependencies": {
 		"Wizcorp/util": "0.1.0",
-		"Wizcorp/wui-View": "0.2.9"
+		"WizUI/WuiView": "0.3.0"
 	},
 	"local": [
 	],

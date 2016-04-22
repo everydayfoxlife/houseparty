@@ -2,16 +2,14 @@
 	"name": "SelectView",
 	"description": "The selection screen",
 	"dependencies": {
-		"mage/mage.js": "0.2.5",
+		"mage/mage.js": "0.2.6",
 		"mage/loader.js": "0.2.1",
-		"Wizcorp/wui-Dom": "0.6.2",
-		"Wizcorp/wui-View": "*",
+		"wizui/wuidom": "0.7.0",
+		"WizUI/WuiView": "0.3.0",
 		"Wizcorp/util": "0.1.0",
 		"Wizcorp/wui-buttonBehavior": "0.1.1"
 	},
 	"paths": [
-		"../../packages",
-		"../../../../lib/modules"
 	],
 	"scripts": [
 		"index.js"
