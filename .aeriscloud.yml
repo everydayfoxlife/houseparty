@@ -2,7 +2,7 @@
 # The name of your project. Please make sure
 # it matches the repository name
 #
-project_name: mage-templates
+project_name: house-party
 
 #
 # The organization which contains the playbook
@@ -17,7 +17,7 @@ organization: Wizcorp
 #
 # ** DO NOT PICK A RANDOM ID **
 #
-id: 33
+id: 40
 
 #
 # The services your project will need.
@@ -62,8 +62,8 @@ id: 33
 # ```
 #
 boxes:
-  - name: base-centos-6-6-prepackaged
-    basebox: base/centos-6.6-prepackaged
+  - name: centos
+    basebox: base/centos-7.2
     cpu: 1
     ram: 1024
 # If any of the box is not an Atlas Box, switch to this basebox URL
@@ -181,5 +181,5 @@ timezone: Asia/Tokyo
 #
 # MAGE and node.js configuration
 #
-node_version: "v0.10.40"
+node_version: "v0.10.44"
 use_mage: true

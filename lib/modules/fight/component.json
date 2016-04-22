@@ -1,7 +1,7 @@
 {
     "name": "fight",
     "dependencies": {
-        "mage/mage.js": "*"
+        "mage/mage.js": "0.2.6"
     },
     "scripts": [
         "client.js"

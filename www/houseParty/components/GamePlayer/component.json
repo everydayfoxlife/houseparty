@@ -1,7 +1,7 @@
 {
 	"name": "GamePlayer",
 	"dependencies": {
-		"Wizcorp/wui-Dom": "0.6.2",
+		"wizui/wuidom": "0.7.0",
 		"Wizcorp/util": "0.1.0"
 	},
 	"scripts": [

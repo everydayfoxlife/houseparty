@@ -2,9 +2,9 @@
 	"name": "main",
 	"description": "The page that runs the actual game",
 	"dependencies": {
-		"mage/mage.js": "0.2.2",
+		"mage/mage.js": "0.2.6",
 		"mage/loader.js": "0.2.1",
-		"Wizcorp/NavTree": "0.4.3"
+		"Wizcorp/NavTree": "0.4.4"
 	},
 	"scripts": [
 		"index.js"
