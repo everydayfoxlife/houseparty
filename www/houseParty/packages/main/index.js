@@ -85,7 +85,7 @@ mage.setup(function (error) {
 
 	// Register views to nav tree
 	navTree.register('selectView', new SelectView(), { create: true });
-	//navTree.register('gameView', new GameView(), { create: true });
+	navTree.register('gameView', new GameView(), { create: true });
 
 	// Open default view
 	navTree.open('selectView');
